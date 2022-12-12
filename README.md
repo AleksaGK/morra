@@ -7,9 +7,11 @@ https://github.com/PowerShell/PowerShell/releases/download/v7.2.7/PowerShell-7.2
 
 Click the Windows icon, type Powershell, and then click Run as Administrator. Enable WSL and VM:
 
-$ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
-$ dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
-$ shutdown -r -t 0
+dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux /all /norestart
+
+dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
+
+shutdown -r -t 0
 
 **Install WSL and Ubuntu**
 
