@@ -15,9 +15,11 @@ shutdown -r -t 0
 
 **Install WSL and Ubuntu**
 
-$ cd c:\; mkdir downloads; cd c:\downloads; wget -uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -outfile .\wsl_update_x64.msi; .\wsl_update_x64.msi
-$ wsl --set-default-version 2
-$ wsl --install -d Ubuntu
+cd c:\; mkdir downloads; cd c:\downloads; wget -uri https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi -outfile .\wsl_update_x64.msi; .\wsl_update_x64.msi
+
+wsl --set-default-version 2
+
+wsl --install -d Ubuntu
 
 I**Install and configuring Docker**
 
